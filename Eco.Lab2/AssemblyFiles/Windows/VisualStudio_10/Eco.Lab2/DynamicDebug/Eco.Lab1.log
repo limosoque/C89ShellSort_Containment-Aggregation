@@ -1,18 +1,26 @@
-﻿Build started 29.03.2024 12:41:31.
-     1>Project "C:\Projects\C89ShellSort_Containment&Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" on node 3 (build target(s)).
+﻿Build started 29.03.2024 13:41:33.
+     1>Project "C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Eco.Lab2\DynamicDebug\Eco.Lab2.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Projects\C89ShellSort_Containment&Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll) does not match the Linker's OutputFile property value (C:\Projects\C89ShellSort_Containment&Aggregation\Eco.Lab2\BuildFiles\Windows\x86\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.Core1\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.System1\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Users\antip\Downloads\Eco.Framework_20230409\Eco.Framework\Eco.List1\SharedFiles /I"C:\Users\antip\OneDrive\Рабочий стол\ВШЭ\3 курс\ACOM\001.InsideACOM\Lessons\Lesson02\Eco.CalculatorA\SharedFiles" /I"C:\Users\antip\OneDrive\Рабочий стол\ВШЭ\3 курс\ACOM\001.InsideACOM\Lessons\Lesson03\Eco.CalculatorB\SharedFiles" /I"C:\Users\antip\OneDrive\Рабочий стол\ВШЭ\3 курс\ACOM\001.InsideACOM\Lessons\Lesson06\Eco.CalculatorD\SharedFiles" /I"C:\Users\antip\OneDrive\Рабочий стол\ВШЭ\3 курс\ACOM\001.InsideACOM\Lessons\Lesson07\Eco.CalculatorE\SharedFiles" /IC:\Projects\C89ShellSort\Eco.Lab1\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D ECO_WINDOWS /D ECO_WIN32 /D UGUID_UTILITY /D ECO_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab2\DynamicDebug\\" /Fd"Eco.Lab2\DynamicDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoLab2.c ..\..\..\SourceFiles\CEcoLab2Factory.c
+         CEcoLab2Factory.c
+         CEcoLab2.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll) does not match the Linker's OutputFile property value (C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\BuildFiles\Windows\x86\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
-         All outputs are up-to-date.
-         Eco.Lab1.vcxproj -> C:\Projects\C89ShellSort_Containment&Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\BuildFiles\Windows\x86\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.lib" /MACHINE:X86 /DLL Eco.Lab2\DynamicDebug\CEcoLab2.obj
+         Eco.Lab2\DynamicDebug\CEcoLab2Factory.obj
+         LINK : ..\..\..\BuildFiles\Windows\x86\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.lib and object C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.exp
+         Eco.Lab1.vcxproj -> C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\BuildFiles\Windows\x86\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll;#2" /manifest Eco.Lab2\DynamicDebug\2F5DF16EE1BF43B999A434ED38FE8F3A.dll.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Eco.Lab2\DynamicDebug\Eco.Lab2.unsuccessfulbuild".
          Touching "Eco.Lab2\DynamicDebug\Eco.Lab2.lastbuildstate".
-     1>Done Building Project "C:\Projects\C89ShellSort_Containment&Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Projects\C89ShellSort_Containment-Aggregation\Eco.Lab2\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:03.42

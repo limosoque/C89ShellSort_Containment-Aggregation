@@ -329,6 +329,20 @@ Release:
         pIEcoLab2->pVTbl->Release(pIEcoLab2);
     }
 
+	/* Освобождение тестируемого интерфейса */
+    if (pIEcoCalculatorX != 0) {
+        pIEcoCalculatorX->pVTbl->Release(pIEcoCalculatorX);
+    }
+
+	/* Освобождение тестируемого интерфейса */
+    if (pIEcoCalculatorY != 0) {
+        pIEcoCalculatorY->pVTbl->Release(pIEcoCalculatorY);
+    }
+
+	/* Освобождение тестируемого интерфейса */
+    if (pIEcoLab1 != 0) {
+        pIEcoLab1->pVTbl->Release(pIEcoLab1);
+    }
 
     /* Освобождение системного интерфейса */
     if (pISys != 0) {
